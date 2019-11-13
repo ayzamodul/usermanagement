@@ -1,5 +1,5 @@
 {
-  "name": "ayzamodul/usermodule",
+  "name": "ayzamodul/usermanagement",
   "description": "Kullanici yonetim modulu",
   "type": "library",
   "require": {
