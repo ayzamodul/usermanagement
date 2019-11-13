@@ -1,0 +1,28 @@
+{
+  "name": "hera/usermodul",
+  "description": "Kullanici yonetim modulu",
+  "type": "library",
+  "require": {
+    "illuminate/support": "^5.8.28"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Emre Canbulat",
+      "email": "canbulat95@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Modul\\userModul\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Modul\\userModul\\userModulServiceProvider"
+      ]
+    }
+  }
+}
