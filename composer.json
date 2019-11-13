@@ -1,5 +1,5 @@
 {
-  "name": "hera/usermodul",
+  "name": "ayzamodul/usermodul",
   "description": "Kullanici yonetim modulu",
   "type": "library",
   "require": {
