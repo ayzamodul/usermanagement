@@ -25,19 +25,20 @@ class KullaniciController extends Controller
     {
         //  $list=User::orderBy('name','desc');
         $list = DB::table('yonetici')->get()->all();
-
+$active ="kullanici";
         //  dd($data);
 
-        return view('kullanici::kullanici.index', compact('list'));
+        return view('kullanici::kullanici.index', compact('list','active'));
     }
 
     public function form($id = 0)
     {
+        $active ="kullanici";
         $entry = new User;
         if ($id > 0) {
             $entry = User::find($id);
         }
-        return view('kullanici::kullanici.form', compact('entry'));
+        return view('kullanici::kullanici.form', compact('entry','active'));
     }
 
     public function kaydet($id = 0)
