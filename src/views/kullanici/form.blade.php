@@ -1,6 +1,11 @@
 @extends('yonetim.layouts.master')
 @section('title','Kullanıcı Yönetimi')
 @section('content')
+    <header class="page-header" style="width: 110%;margin-left: -5%">
+        <div class="row-fluid" >
+            <h2 class="no-margin-bottom"  id="h2" style="margin-left: 2%" >&nbsp; Kullanıcı Yönetimi</h2>
+        </div>
+    </header>
     <section>
 
         <div class="card" style="background-color: white" id="deneme">
